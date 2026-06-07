@@ -37,6 +37,19 @@ public class ContaBancaria {
                                 .formatted(balance)
                 );
             }
+            else if(option == 2){
+
+                System.out.println("Valor recebido:");
+
+                double value = reader.nextDouble();
+
+                balance += value;
+
+                System.out.println(
+                        "Saldo atualizado R$ %.2f"
+                                .formatted(balance)
+                );
+            }
         }
     }
 }
