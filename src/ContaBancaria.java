@@ -30,6 +30,13 @@ public class ContaBancaria {
 
         while(option != 4){
             option = reader.nextInt();
+
+            if(option == 1){
+                System.out.println(
+                        "Saldo atualizado R$ %.2f"
+                                .formatted(balance)
+                );
+            }
         }
     }
 }
