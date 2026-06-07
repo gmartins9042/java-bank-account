@@ -68,6 +68,14 @@ public class ContaBancaria {
                     balance -= value;
                 }
             }
+            else if(option == 4){
+
+                System.out.println(
+                        "Encerrando o programa"
+                );
+
+                break;
+            }
         }
     }
 }
