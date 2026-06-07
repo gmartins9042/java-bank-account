@@ -27,5 +27,9 @@ public class ContaBancaria {
         3 - Transferir valor
         4 - Sair
         """);
+
+        while(option != 4){
+            option = reader.nextInt();
+        }
     }
 }
