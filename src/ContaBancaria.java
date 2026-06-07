@@ -57,6 +57,16 @@ public class ContaBancaria {
                 );
 
                 double value = reader.nextDouble();
+                if(value > balance){
+
+                    System.out.println(
+                            "Não há saldo para realizar a transferencia"
+                    );
+
+                }else{
+
+                    balance -= value;
+                }
             }
         }
     }
