@@ -76,6 +76,14 @@ public class ContaBancaria {
 
                 break;
             }
+            else{
+
+                System.out.println("""
+                Opção inválida!
+
+                Digite novamente a opção correta
+                """);
+            }
         }
     }
 }
