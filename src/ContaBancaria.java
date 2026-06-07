@@ -18,5 +18,14 @@ public class ContaBancaria {
                 Saldo inicial: R$: %.2f
                 *************************************
                 """.formatted(name, account, balance));
+
+        System.out.println("""
+        Digite a opção que deseja:
+
+        1 - Consultar saldo
+        2 - Receber valor
+        3 - Transferir valor
+        4 - Sair
+        """);
     }
 }
