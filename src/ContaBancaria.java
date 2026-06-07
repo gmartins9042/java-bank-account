@@ -50,6 +50,14 @@ public class ContaBancaria {
                                 .formatted(balance)
                 );
             }
+            else if(option == 3){
+
+                System.out.println(
+                        "Informe o valor a transferir:"
+                );
+
+                double value = reader.nextDouble();
+            }
         }
     }
 }
